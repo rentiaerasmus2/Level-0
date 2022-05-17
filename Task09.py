@@ -1,5 +1,8 @@
-def vowel(text):
-    vowel = "a,e,i,o,u"
-    print([letter for letter in text if letter in vowel])
+def compare(vowel):
+    for vowel in 'aeiou':
+        if vowel in sentence.lower():
 
-vowel('My name is Rentia')        
+            print(vowel, end = ' ')
+
+sentence = "DANgerous" 
+compare(sentence)       
